@@ -56,6 +56,7 @@ body {
 }
 
 .links ul a {
+    display: block;
     border-radius: 5px;
     background-color: hsl(0,0%,20%);
     padding: 7px 40px;
