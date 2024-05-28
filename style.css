@@ -7,14 +7,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsl(0,0%,12%);
+    background-color: hsl(0,0%,8%);
 }
 
 .container {
     text-align: center;
     border-radius: 15px;
     padding: 10px;
-    background-color: hsl(0,0%,20%)
+    background-color: hsl(0,0%,12%)
 }
 
 .profile {
@@ -42,15 +42,24 @@ body {
     height: 25%;
 }
 
-.link {
+.links ul {
     display: flex;
     text-align: center;
     flex-direction: column;
     padding: 10px;
+    list-style-type: none;
+    gap: 15px
 }
 
-.links ul {
-    list-style-type: none;
+.links ul a:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+
+.links ul a {
+    border-radius: 5px;
+    background-color: hsl(0,0%,20%);
+    padding: 7px 40px;
+
 }
 
 a {
